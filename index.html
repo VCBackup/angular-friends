@@ -20,12 +20,13 @@
         placeholder="Search State" 
         ng-model="friendFilter.location.state">
           
-        <select class="input-medium" ng-model="sortProp">
-          <option value='name'>Name</option>
-          <option value='friend_count'>#Friends</option>
-          <option value='location.city'>City</option>
-          <option value='location.state'>State</option>
-          <option value='location.country'>Country</option>
+        <select class="input-medium" ng-model="propOptions">
+          <option value="name">Name</option>
+          <option value="friend_count">#Friends</option>
+          <option value="location.city">City</option>
+          <option value="location.state">State</option>
+          <option value="location.country">Country</option>
+
         </select>
 
         <select class="input-medium" ng-model="sortDirection">

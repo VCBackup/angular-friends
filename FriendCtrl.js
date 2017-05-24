@@ -3,8 +3,16 @@ var myApp = angular.module('myApp');
 myApp.controller('FriendCtrl', function($scope){
 
     $scope.sortProp;
-    
+
     $scope.sortDirection;
+
+    //$scope.propOptions = [{'Name': friend.name},
+        //{'#Friends': friend.friend-count},
+        //{'City': friend.location.city},
+        //{'State': friend.location.state},
+        //{'Country': friends.location.country}];
+
+    //$scope.directionOptions = [{'Descending':'-'}, {'Ascending': '+'}];
 
     $scope.friends = [{
     name: 'Preston McNeil',
